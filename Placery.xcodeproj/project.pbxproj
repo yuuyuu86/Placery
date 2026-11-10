@@ -1,0 +1,567 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 77;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		0A00999DA28F917B6EDC49F5 /* BookPin.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5F123D97E81B832534C775D5 /* BookPin.swift */; };
+		0C4B29B9B1D94FA49459D671 /* AuthStore.swift in Sources */ = {isa = PBXBuildFile; fileRef = D5C2A7A03A5DCADB37AF22AE /* AuthStore.swift */; };
+		17598D964BC9F02D6C5FEE06 /* Palette.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0C73150FD22743E2DA889BEA /* Palette.swift */; };
+		1B5A0DDB01B90256360CFA3A /* ComposeScreen.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7EAA1AE4BB0AF42DEC355B4A /* ComposeScreen.swift */; };
+		2B0AB727B7D6D87E4C1BCBB0 /* PaywallView.swift in Sources */ = {isa = PBXBuildFile; fileRef = BB6FD3B7F431279E702E0304 /* PaywallView.swift */; };
+		2B196DC37DD29B487853FEB6 /* Typography.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0E5637CAB4CC073942243254 /* Typography.swift */; };
+		30C495E6713E48D1036D8996 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = D2FB41D1903467C8D943FE64 /* Assets.xcassets */; };
+		3822A7A2154F9956C24DDD82 /* UnlockMomentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = F912443A2ADFCE4FA4D4C3CB /* UnlockMomentView.swift */; };
+		429DA7E8ED3B28DF242370B1 /* PlaceryApp.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0A620E838108212E35ACF6D0 /* PlaceryApp.swift */; };
+		46D737862C8904F58F121A44 /* LocationStore.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7195A6F683B97FF6B051CE72 /* LocationStore.swift */; };
+		4C6670C9500B1FD1EFD3F288 /* ProximityMonitor.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4F44ECEA60CCD11921088EFD /* ProximityMonitor.swift */; };
+		53BBD21CD43B69E6609F7283 /* PhotoLibrary.swift in Sources */ = {isa = PBXBuildFile; fileRef = 76E8A185CD4EDC2F1D0B5A08 /* PhotoLibrary.swift */; };
+		5801BAA7BDF28D509FCA3F42 /* ProfileScreen.swift in Sources */ = {isa = PBXBuildFile; fileRef = 78DD2C02B951E0F86D5363FF /* ProfileScreen.swift */; };
+		72239E6A9A147642D91433A0 /* BookmarkDetailScreen.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2C243B11ED9B65BABC63A1DE /* BookmarkDetailScreen.swift */; };
+		7441958BAE73F61950239F98 /* Bookmark.swift in Sources */ = {isa = PBXBuildFile; fileRef = 30C7AE12DDFABA8F84577CB1 /* Bookmark.swift */; };
+		79F8130E2D5C26FD8BDC5F6E /* FollowScreen.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7256B4656655120F0F1609CB /* FollowScreen.swift */; };
+		7DD77786A56A398343356805 /* SettingsScreen.swift in Sources */ = {isa = PBXBuildFile; fileRef = 21431B01A2231A013D927401 /* SettingsScreen.swift */; };
+		98276F1E9E623909C3AD1D80 /* OnboardingView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 33A7342487A1E1D3428CD8FB /* OnboardingView.swift */; };
+		A10557A826AE0B0EF83A5E14 /* SearchSheet.swift in Sources */ = {isa = PBXBuildFile; fileRef = AB9FE17C0ABEADE29922EEB6 /* SearchSheet.swift */; };
+		ADAEDB937AAE898A1DB9EBC1 /* SocialStore.swift in Sources */ = {isa = PBXBuildFile; fileRef = EF0CA838D5416C6EAB5D068D /* SocialStore.swift */; };
+		B3DBA2DBA41DC5931A974251 /* SubscriptionStore.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5267507573726912583C67DE /* SubscriptionStore.swift */; };
+		B7C0683282FFEA96445146CC /* AlbumScreen.swift in Sources */ = {isa = PBXBuildFile; fileRef = 892F0ACEF6BDE8A49159833B /* AlbumScreen.swift */; };
+		B97B1AB0C3A8E3328B190E1A /* BookmarkStore.swift in Sources */ = {isa = PBXBuildFile; fileRef = A13E96121B548F012B0BAEF6 /* BookmarkStore.swift */; };
+		C45149B9C04AD7D4F17BB71E /* RootView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6888D13D2A58A92981A2DD11 /* RootView.swift */; };
+		CC3EA4CB75489AD876657532 /* CloudSyncService.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1D0B6854CCE65BAF0ABEA6F9 /* CloudSyncService.swift */; };
+		D397C88E5436B5231B7C5F04 /* BookmarkPhoto.swift in Sources */ = {isa = PBXBuildFile; fileRef = D0B4545B73F2BA07C52A1C2B /* BookmarkPhoto.swift */; };
+		D4D5F51C1F42E05353FEA20B /* MapScreen.swift in Sources */ = {isa = PBXBuildFile; fileRef = D755BEF05F5FF00DB1213139 /* MapScreen.swift */; };
+		DA4E9ADFC8809D306D07F3DC /* SignInScreen.swift in Sources */ = {isa = PBXBuildFile; fileRef = 53F535CA831EA045706FF62A /* SignInScreen.swift */; };
+		EDA9770093EB8A2BA7CBA5B2 /* ReportSheet.swift in Sources */ = {isa = PBXBuildFile; fileRef = A0C81D4460AC59D2AA843952 /* ReportSheet.swift */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXFileReference section */
+		0A620E838108212E35ACF6D0 /* PlaceryApp.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PlaceryApp.swift; sourceTree = "<group>"; };
+		0C73150FD22743E2DA889BEA /* Palette.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Palette.swift; sourceTree = "<group>"; };
+		0E5637CAB4CC073942243254 /* Typography.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Typography.swift; sourceTree = "<group>"; };
+		1D0B6854CCE65BAF0ABEA6F9 /* CloudSyncService.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CloudSyncService.swift; sourceTree = "<group>"; };
+		21431B01A2231A013D927401 /* SettingsScreen.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SettingsScreen.swift; sourceTree = "<group>"; };
+		2C243B11ED9B65BABC63A1DE /* BookmarkDetailScreen.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = BookmarkDetailScreen.swift; sourceTree = "<group>"; };
+		30C7AE12DDFABA8F84577CB1 /* Bookmark.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Bookmark.swift; sourceTree = "<group>"; };
+		33A7342487A1E1D3428CD8FB /* OnboardingView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = OnboardingView.swift; sourceTree = "<group>"; };
+		4F44ECEA60CCD11921088EFD /* ProximityMonitor.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ProximityMonitor.swift; sourceTree = "<group>"; };
+		5267507573726912583C67DE /* SubscriptionStore.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SubscriptionStore.swift; sourceTree = "<group>"; };
+		53F535CA831EA045706FF62A /* SignInScreen.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SignInScreen.swift; sourceTree = "<group>"; };
+		56AC82D490511604F6E9A31A /* Placery.entitlements */ = {isa = PBXFileReference; lastKnownFileType = text.plist.entitlements; path = Placery.entitlements; sourceTree = "<group>"; };
+		5F123D97E81B832534C775D5 /* BookPin.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = BookPin.swift; sourceTree = "<group>"; };
+		6888D13D2A58A92981A2DD11 /* RootView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = RootView.swift; sourceTree = "<group>"; };
+		7195A6F683B97FF6B051CE72 /* LocationStore.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LocationStore.swift; sourceTree = "<group>"; };
+		7256B4656655120F0F1609CB /* FollowScreen.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FollowScreen.swift; sourceTree = "<group>"; };
+		76E8A185CD4EDC2F1D0B5A08 /* PhotoLibrary.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PhotoLibrary.swift; sourceTree = "<group>"; };
+		78DD2C02B951E0F86D5363FF /* ProfileScreen.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ProfileScreen.swift; sourceTree = "<group>"; };
+		7EAA1AE4BB0AF42DEC355B4A /* ComposeScreen.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ComposeScreen.swift; sourceTree = "<group>"; };
+		892F0ACEF6BDE8A49159833B /* AlbumScreen.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AlbumScreen.swift; sourceTree = "<group>"; };
+		A0C81D4460AC59D2AA843952 /* ReportSheet.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ReportSheet.swift; sourceTree = "<group>"; };
+		A13E96121B548F012B0BAEF6 /* BookmarkStore.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = BookmarkStore.swift; sourceTree = "<group>"; };
+		AB9FE17C0ABEADE29922EEB6 /* SearchSheet.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SearchSheet.swift; sourceTree = "<group>"; };
+		BB6FD3B7F431279E702E0304 /* PaywallView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PaywallView.swift; sourceTree = "<group>"; };
+		D0B4545B73F2BA07C52A1C2B /* BookmarkPhoto.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = BookmarkPhoto.swift; sourceTree = "<group>"; };
+		D2FB41D1903467C8D943FE64 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		D5C2A7A03A5DCADB37AF22AE /* AuthStore.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AuthStore.swift; sourceTree = "<group>"; };
+		D755BEF05F5FF00DB1213139 /* MapScreen.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MapScreen.swift; sourceTree = "<group>"; };
+		DCA4456AF2B025958833006A /* Placery.app */ = {isa = PBXFileReference; includeInIndex = 0; lastKnownFileType = wrapper.application; path = Placery.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		EF0CA838D5416C6EAB5D068D /* SocialStore.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SocialStore.swift; sourceTree = "<group>"; };
+		F912443A2ADFCE4FA4D4C3CB /* UnlockMomentView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = UnlockMomentView.swift; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXGroup section */
+		047F605DEDFA4CEA3F689AB6 /* DesignSystem */ = {
+			isa = PBXGroup;
+			children = (
+				0C73150FD22743E2DA889BEA /* Palette.swift */,
+				0E5637CAB4CC073942243254 /* Typography.swift */,
+			);
+			path = DesignSystem;
+			sourceTree = "<group>";
+		};
+		0D7099D43DD9AB66E964AE69 /* Social */ = {
+			isa = PBXGroup;
+			children = (
+				7256B4656655120F0F1609CB /* FollowScreen.swift */,
+			);
+			path = Social;
+			sourceTree = "<group>";
+		};
+		0FDC418C280CCA41E87B31C2 /* Profile */ = {
+			isa = PBXGroup;
+			children = (
+				78DD2C02B951E0F86D5363FF /* ProfileScreen.swift */,
+			);
+			path = Profile;
+			sourceTree = "<group>";
+		};
+		1B02FD384DD60C8E97F33A33 /* Components */ = {
+			isa = PBXGroup;
+			children = (
+				D0B4545B73F2BA07C52A1C2B /* BookmarkPhoto.swift */,
+				5F123D97E81B832534C775D5 /* BookPin.swift */,
+			);
+			path = Components;
+			sourceTree = "<group>";
+		};
+		1DC0904155ADFBB3E0425DEE /* Auth */ = {
+			isa = PBXGroup;
+			children = (
+				53F535CA831EA045706FF62A /* SignInScreen.swift */,
+			);
+			path = Auth;
+			sourceTree = "<group>";
+		};
+		2FDE132C80F95D24F6165F38 /* App */ = {
+			isa = PBXGroup;
+			children = (
+				0A620E838108212E35ACF6D0 /* PlaceryApp.swift */,
+				6888D13D2A58A92981A2DD11 /* RootView.swift */,
+			);
+			path = App;
+			sourceTree = "<group>";
+		};
+		53157A91660616F08B65CFCE = {
+			isa = PBXGroup;
+			children = (
+				595218BDDE563367022ECE89 /* Placery */,
+				AC5047357E29FA475AAA14C2 /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		54FEFCB1E37A47F8C1643602 /* Map */ = {
+			isa = PBXGroup;
+			children = (
+				D755BEF05F5FF00DB1213139 /* MapScreen.swift */,
+				AB9FE17C0ABEADE29922EEB6 /* SearchSheet.swift */,
+			);
+			path = Map;
+			sourceTree = "<group>";
+		};
+		595218BDDE563367022ECE89 /* Placery */ = {
+			isa = PBXGroup;
+			children = (
+				D2FB41D1903467C8D943FE64 /* Assets.xcassets */,
+				56AC82D490511604F6E9A31A /* Placery.entitlements */,
+				2FDE132C80F95D24F6165F38 /* App */,
+				1B02FD384DD60C8E97F33A33 /* Components */,
+				047F605DEDFA4CEA3F689AB6 /* DesignSystem */,
+				83AA9B36663F37A42E95DC07 /* Features */,
+				CF4510BD653CB41D7071BF46 /* Models */,
+			);
+			path = Placery;
+			sourceTree = "<group>";
+		};
+		6F379A37B6DFE34460C0D4FE /* Subscription */ = {
+			isa = PBXGroup;
+			children = (
+				BB6FD3B7F431279E702E0304 /* PaywallView.swift */,
+			);
+			path = Subscription;
+			sourceTree = "<group>";
+		};
+		7056F00F05DD16F349B76735 /* Moderation */ = {
+			isa = PBXGroup;
+			children = (
+				A0C81D4460AC59D2AA843952 /* ReportSheet.swift */,
+			);
+			path = Moderation;
+			sourceTree = "<group>";
+		};
+		7F5322D0C358B1CC1FB42FE2 /* Unlock */ = {
+			isa = PBXGroup;
+			children = (
+				F912443A2ADFCE4FA4D4C3CB /* UnlockMomentView.swift */,
+			);
+			path = Unlock;
+			sourceTree = "<group>";
+		};
+		83AA9B36663F37A42E95DC07 /* Features */ = {
+			isa = PBXGroup;
+			children = (
+				F014219080C998465D52BB44 /* Album */,
+				1DC0904155ADFBB3E0425DEE /* Auth */,
+				AD44812B55EDDA7F77F4D1B2 /* Compose */,
+				B1F3B17A6AF2C1053582B747 /* Detail */,
+				54FEFCB1E37A47F8C1643602 /* Map */,
+				7056F00F05DD16F349B76735 /* Moderation */,
+				ECD24C19B811D7520612FB70 /* Onboarding */,
+				0FDC418C280CCA41E87B31C2 /* Profile */,
+				BF8E6693F0AFD7C705E0B2DF /* Settings */,
+				0D7099D43DD9AB66E964AE69 /* Social */,
+				6F379A37B6DFE34460C0D4FE /* Subscription */,
+				7F5322D0C358B1CC1FB42FE2 /* Unlock */,
+			);
+			path = Features;
+			sourceTree = "<group>";
+		};
+		AC5047357E29FA475AAA14C2 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				DCA4456AF2B025958833006A /* Placery.app */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		AD44812B55EDDA7F77F4D1B2 /* Compose */ = {
+			isa = PBXGroup;
+			children = (
+				7EAA1AE4BB0AF42DEC355B4A /* ComposeScreen.swift */,
+			);
+			path = Compose;
+			sourceTree = "<group>";
+		};
+		B1F3B17A6AF2C1053582B747 /* Detail */ = {
+			isa = PBXGroup;
+			children = (
+				2C243B11ED9B65BABC63A1DE /* BookmarkDetailScreen.swift */,
+			);
+			path = Detail;
+			sourceTree = "<group>";
+		};
+		BF8E6693F0AFD7C705E0B2DF /* Settings */ = {
+			isa = PBXGroup;
+			children = (
+				21431B01A2231A013D927401 /* SettingsScreen.swift */,
+			);
+			path = Settings;
+			sourceTree = "<group>";
+		};
+		CF4510BD653CB41D7071BF46 /* Models */ = {
+			isa = PBXGroup;
+			children = (
+				D5C2A7A03A5DCADB37AF22AE /* AuthStore.swift */,
+				30C7AE12DDFABA8F84577CB1 /* Bookmark.swift */,
+				A13E96121B548F012B0BAEF6 /* BookmarkStore.swift */,
+				1D0B6854CCE65BAF0ABEA6F9 /* CloudSyncService.swift */,
+				7195A6F683B97FF6B051CE72 /* LocationStore.swift */,
+				76E8A185CD4EDC2F1D0B5A08 /* PhotoLibrary.swift */,
+				4F44ECEA60CCD11921088EFD /* ProximityMonitor.swift */,
+				EF0CA838D5416C6EAB5D068D /* SocialStore.swift */,
+				5267507573726912583C67DE /* SubscriptionStore.swift */,
+			);
+			path = Models;
+			sourceTree = "<group>";
+		};
+		ECD24C19B811D7520612FB70 /* Onboarding */ = {
+			isa = PBXGroup;
+			children = (
+				33A7342487A1E1D3428CD8FB /* OnboardingView.swift */,
+			);
+			path = Onboarding;
+			sourceTree = "<group>";
+		};
+		F014219080C998465D52BB44 /* Album */ = {
+			isa = PBXGroup;
+			children = (
+				892F0ACEF6BDE8A49159833B /* AlbumScreen.swift */,
+			);
+			path = Album;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		8E3BF8E511BC93DA97CF9C20 /* Placery */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 739C9079317F0BBFDC259712 /* Build configuration list for PBXNativeTarget "Placery" */;
+			buildPhases = (
+				0CA9F8F8D0FCA50C709030B3 /* Sources */,
+				1FEBE252AD937AEFF3AD2831 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = Placery;
+			packageProductDependencies = (
+			);
+			productName = Placery;
+			productReference = DCA4456AF2B025958833006A /* Placery.app */;
+			productType = "com.apple.product-type.application";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		CFFCB668CA4CDBF8D90DDD27 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				BuildIndependentTargetsInParallel = YES;
+				LastUpgradeCheck = 1430;
+				TargetAttributes = {
+					8E3BF8E511BC93DA97CF9C20 = {
+						DevelopmentTeam = 2PBVY8C5TF;
+						ProvisioningStyle = Automatic;
+					};
+				};
+			};
+			buildConfigurationList = 3C00B8231265BD805D022AA5 /* Build configuration list for PBXProject "Placery" */;
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				Base,
+				en,
+			);
+			mainGroup = 53157A91660616F08B65CFCE;
+			minimizedProjectReferenceProxies = 1;
+			preferredProjectObjectVersion = 77;
+			productRefGroup = AC5047357E29FA475AAA14C2 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				8E3BF8E511BC93DA97CF9C20 /* Placery */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		1FEBE252AD937AEFF3AD2831 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				30C495E6713E48D1036D8996 /* Assets.xcassets in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		0CA9F8F8D0FCA50C709030B3 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				B7C0683282FFEA96445146CC /* AlbumScreen.swift in Sources */,
+				0C4B29B9B1D94FA49459D671 /* AuthStore.swift in Sources */,
+				0A00999DA28F917B6EDC49F5 /* BookPin.swift in Sources */,
+				7441958BAE73F61950239F98 /* Bookmark.swift in Sources */,
+				72239E6A9A147642D91433A0 /* BookmarkDetailScreen.swift in Sources */,
+				D397C88E5436B5231B7C5F04 /* BookmarkPhoto.swift in Sources */,
+				B97B1AB0C3A8E3328B190E1A /* BookmarkStore.swift in Sources */,
+				CC3EA4CB75489AD876657532 /* CloudSyncService.swift in Sources */,
+				1B5A0DDB01B90256360CFA3A /* ComposeScreen.swift in Sources */,
+				79F8130E2D5C26FD8BDC5F6E /* FollowScreen.swift in Sources */,
+				46D737862C8904F58F121A44 /* LocationStore.swift in Sources */,
+				D4D5F51C1F42E05353FEA20B /* MapScreen.swift in Sources */,
+				98276F1E9E623909C3AD1D80 /* OnboardingView.swift in Sources */,
+				17598D964BC9F02D6C5FEE06 /* Palette.swift in Sources */,
+				2B0AB727B7D6D87E4C1BCBB0 /* PaywallView.swift in Sources */,
+				53BBD21CD43B69E6609F7283 /* PhotoLibrary.swift in Sources */,
+				429DA7E8ED3B28DF242370B1 /* PlaceryApp.swift in Sources */,
+				5801BAA7BDF28D509FCA3F42 /* ProfileScreen.swift in Sources */,
+				4C6670C9500B1FD1EFD3F288 /* ProximityMonitor.swift in Sources */,
+				EDA9770093EB8A2BA7CBA5B2 /* ReportSheet.swift in Sources */,
+				C45149B9C04AD7D4F17BB71E /* RootView.swift in Sources */,
+				A10557A826AE0B0EF83A5E14 /* SearchSheet.swift in Sources */,
+				7DD77786A56A398343356805 /* SettingsScreen.swift in Sources */,
+				DA4E9ADFC8809D306D07F3DC /* SignInScreen.swift in Sources */,
+				ADAEDB937AAE898A1DB9EBC1 /* SocialStore.swift in Sources */,
+				B3DBA2DBA41DC5931A974251 /* SubscriptionStore.swift in Sources */,
+				2B196DC37DD29B487853FEB6 /* Typography.swift in Sources */,
+				3822A7A2154F9956C24DDD82 /* UnlockMomentView.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin XCBuildConfiguration section */
+		1CF6EF0C3E48FE9E022E71BC /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_ENTITLEMENTS = Placery/Placery.entitlements;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				ENABLE_PREVIEWS = YES;
+				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_KEY_CFBundleDisplayName = Placery;
+				INFOPLIST_KEY_NSLocationAlwaysAndWhenInUseUsageDescription = "アプリを開いていないときも、近くにしおりがあることをお知らせするために位置情報を使います。";
+				INFOPLIST_KEY_NSLocationWhenInUseUsageDescription = "近くのしおりを地図に表示し、現地に着いたときに自動で開くために位置情報を使います。";
+				INFOPLIST_KEY_NSPhotoLibraryUsageDescription = "しおりに写真を添えるために写真ライブラリを使います。";
+				INFOPLIST_KEY_UILaunchScreen_Generation = YES;
+				INFOPLIST_KEY_UISupportedInterfaceOrientations = UIInterfaceOrientationPortrait;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = com.yutamizutani.placery;
+				PRODUCT_NAME = Placery;
+				SDKROOT = iphoneos;
+				TARGETED_DEVICE_FAMILY = 1;
+			};
+			name = Release;
+		};
+		482E21652660C095E66D5424 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				CODE_SIGN_STYLE = Automatic;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				DEVELOPMENT_TEAM = 2PBVY8C5TF;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"$(inherited)",
+					"DEBUG=1",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 26.0;
+				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
+				MTL_FAST_MATH = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SDKROOT = iphoneos;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = DEBUG;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+				SWIFT_VERSION = 6.0;
+			};
+			name = Debug;
+		};
+		65242B761CE1B315DE41AE84 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				CODE_SIGN_STYLE = Automatic;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				DEVELOPMENT_TEAM = 2PBVY8C5TF;
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 26.0;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				MTL_FAST_MATH = YES;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SDKROOT = iphoneos;
+				SWIFT_COMPILATION_MODE = wholemodule;
+				SWIFT_OPTIMIZATION_LEVEL = "-O";
+				SWIFT_VERSION = 6.0;
+			};
+			name = Release;
+		};
+		818606E9D1618FA70804DA4D /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_ENTITLEMENTS = Placery/Placery.entitlements;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				ENABLE_PREVIEWS = YES;
+				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_KEY_CFBundleDisplayName = Placery;
+				INFOPLIST_KEY_NSLocationAlwaysAndWhenInUseUsageDescription = "アプリを開いていないときも、近くにしおりがあることをお知らせするために位置情報を使います。";
+				INFOPLIST_KEY_NSLocationWhenInUseUsageDescription = "近くのしおりを地図に表示し、現地に着いたときに自動で開くために位置情報を使います。";
+				INFOPLIST_KEY_NSPhotoLibraryUsageDescription = "しおりに写真を添えるために写真ライブラリを使います。";
+				INFOPLIST_KEY_UILaunchScreen_Generation = YES;
+				INFOPLIST_KEY_UISupportedInterfaceOrientations = UIInterfaceOrientationPortrait;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = com.yutamizutani.placery;
+				PRODUCT_NAME = Placery;
+				SDKROOT = iphoneos;
+				TARGETED_DEVICE_FAMILY = 1;
+			};
+			name = Debug;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		3C00B8231265BD805D022AA5 /* Build configuration list for PBXProject "Placery" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				482E21652660C095E66D5424 /* Debug */,
+				65242B761CE1B315DE41AE84 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Debug;
+		};
+		739C9079317F0BBFDC259712 /* Build configuration list for PBXNativeTarget "Placery" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				818606E9D1618FA70804DA4D /* Debug */,
+				1CF6EF0C3E48FE9E022E71BC /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Debug;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = CFFCB668CA4CDBF8D90DDD27 /* Project object */;
+}

@@ -1,0 +1,36 @@
+name: Placery
+
+options:
+  bundleIdPrefix: com.placery
+  deploymentTarget:
+    iOS: "26.0"
+  createIntermediateGroups: true
+
+settings:
+  base:
+    SWIFT_VERSION: "6.0"
+    CODE_SIGN_STYLE: Automatic
+    DEVELOPMENT_TEAM: 2PBVY8C5TF
+
+targets:
+  Placery:
+    type: application
+    platform: iOS
+    sources:
+      - path: Placery
+    settings:
+      base:
+        PRODUCT_BUNDLE_IDENTIFIER: com.yutamizutani.placery
+        CODE_SIGN_ENTITLEMENTS: Placery/Placery.entitlements
+        PRODUCT_NAME: Placery
+        TARGETED_DEVICE_FAMILY: "1"
+        ENABLE_PREVIEWS: "YES"
+        GENERATE_INFOPLIST_FILE: "YES"
+        INFOPLIST_KEY_CFBundleDisplayName: Placery
+        INFOPLIST_KEY_UILaunchScreen_Generation: "YES"
+        INFOPLIST_KEY_UISupportedInterfaceOrientations: UIInterfaceOrientationPortrait
+        INFOPLIST_KEY_NSLocationWhenInUseUsageDescription: 近くのしおりを地図に表示し、現地に着いたときに自動で開くために位置情報を使います。
+        INFOPLIST_KEY_NSLocationAlwaysAndWhenInUseUsageDescription: アプリを開いていないときも、近くにしおりがあることをお知らせするために位置情報を使います。
+        INFOPLIST_KEY_NSPhotoLibraryUsageDescription: しおりに写真を添えるために写真ライブラリを使います。
+    scheme:
+      storeKitConfiguration: Placery.storekit
